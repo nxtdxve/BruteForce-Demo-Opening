@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Brute Force Attacke Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+        }
+        .input-group {
+            margin-bottom: 10px;
+        }
+        input, button {
+            margin-right: 5px;
+        }
+        #result {
+            min-height: 24px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Brute Force Attacke Demo</h2>
+        <div class="input-group">
+            <input type="text" id="passwordInput" placeholder="Passwort eingeben"/>
+            <button onclick="checkPassword()">Überprüfen</button>
+        </div>
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
